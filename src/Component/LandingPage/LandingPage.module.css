@@ -51,6 +51,11 @@ line-height: 24px;
 
 text-transform: uppercase;
 }
+.hrLine p{ 
+    position: relative;
+    top: 20px;
+    border-bottom: 1px solid #EF8903;
+}
 .textDIv img{
     position: relative;
     top: 17px;
@@ -64,17 +69,9 @@ height: 44px;
 left: 21px;
 top: 10px;
 
-}
-.orangeLine{
-    position: absolute;
-width: 201px;
-height: 0px;
-left: 34px;
-top: 29px;
-border: 1px solid #EF8903;
 
-color: #EF8903;
 }
+
 .subHeader .matricsPara{
     position: absolute;
 left: 12%;
@@ -165,7 +162,7 @@ align-items: center;
 padding: 9px 24px;
 gap: 8px;
 
-width: 192px;
+width: 172px;
 height: 38px;
 
 /* primary */
@@ -202,7 +199,7 @@ color: #FFFFFF;
 
 .button2 img{
     position: absolute;
-left: 55.63%;
+left: 51.63%;
 right: 46.44%;
 top: 20.01%;
 bottom: 31.58%;
@@ -238,228 +235,7 @@ height: 51px;
 left: px;
 top: 250px;
 }
-.tab1{
-    display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 2px;
 
-width: 151px;
-height: 51px;
-
-/* white */
-
-background: #FFFFFF;
-}
-.tab3{
-    display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 2px;
-
-width: 139px;
-height: 51px;
-
-/* white */
-
-background: #FFFFFF;
-}
-.tab4{
-    display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 2px;
-
-width: 177px;
-height: 51px;
-
-/* white */
-
-background: #FFFFFF;
-}
-.tab5{
-    display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 2px;
-
-width: 139px;
-height: 51px;
-
-/* white */
-
-background: #FFFFFF;
-}
-.tab6{
-    display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 2px;
-
-width: 139px;
-height: 51px;
-
-/* white */
-
-background: #FFFFFF;
-}
-.tab7{
-    display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 2px;
-
-width: 139px;
-height: 51px;
-
-/* white */
-
-background: #FFFFFF;
-}
-.tab8{
-    display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 2px;
-
-width: 139px;
-height: 51px;
-
-/* white */
-
-background: #FFFFFF;
-}
-.tab1 p{
-    width: 94px;
-height: 17px;
-
-position: absolute;
-top: 14px;
-
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 17px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-/* slate/800 */
-
-color: #1E293B;
-}
-.tab1  .hrOrange{
-width: 126px;
-height: 2px;
-position: absolute;
-top: 33px;
-left: px;
-border-bottom: 2px solid #EF8903;
-
-background: #EF8903;
-}
-.tab1 .hrDivider{
-    width: 2px;
-height: 51px;
-position: absolute;
-/* gray/200 */
-left: 126px;
-bottom: -16px;
-background-color: #E5E7EB;
-/* background: #E5E7EB; */
-}
-.tab2{
-    display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-
-width: 143px;
-height: 49px;
-
-/* white */
-
-background: #FFFFFF;
-}
-.tab1 .hrDivider3{
-    width: 2px;
-    height: 51px;
-    position: absolute;
-   
-    left: 372px;
-    top: -16px;
-   background-color: #E5E7EB;
-}
-.tab1 .hrDivider1{
-    width: 2px;
-    height: 51px;
-    position: absolute;
-   
-    left: 248px;
-    top: -16px;
-   background-color: #E5E7EB;
-}
-.tab1 .hrDivider4{
-    width: 2px;
-    height: 51px;
-    position: absolute;
-   
-    left: 497px;
-    top: -16px;
-   background-color: #E5E7EB;
-}
-.tab1 .hrDivider5{
-    width: 2px;
-    height: 51px;
-    position: absolute;
-   
-    left: 621px;
-    top: -16px;
-   background-color: #E5E7EB;
-}
-.tab1 .hrDivider6{
-    width: 2px;
-    height: 51px;
-    position: absolute;
-   
-    left: 745px;
-    top: -16px;
-   background-color: #E5E7EB;
-}
-.tab1 .hrDivider7{
-    width: 2px;
-    height: 51px;
-    position: absolute;
-   
-    left: 867px;
-    top: -16px;
-   background-color: #E5E7EB;
-}
-.tab1 .hrDivider8{
-    width: 2px;
-    height: 51px;
-    position: absolute;
-   
-    left: 991px;
-    top: -16px;
-   background-color: #E5E7EB;
-}
 .searchBars{
     display: flex;
 flex-direction: row;
@@ -517,5 +293,416 @@ line-height: 20px;
 letter-spacing: 0.01em;
 
 color: #B6B9BD;
+
+}
+.deskBar{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 1117px;
+position: absolute;
+
+height: 51px;
+/* left: 4px; */
+top: 240px;
+}
+.financialDiv{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 2px;
+border-bottom: 2px solid #EF8903;
+width: 161px;
+border-right: 1px solid #E5E7EB;
+height: 51px;
+
+/* white */
+
+background: #FFFFFF;
+}
+.financialDiv .fPara{
+    width: 64px;
+height: 17px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* slate/800 */
+
+color: #1E293B;
+
+}
+.fParaDiv{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 16px 14px;
+
+width: 96px;
+height: 47px;
+
+}
+.saasDiv{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+border-right: 1px solid #E5E7EB;
+width: 163px;
+height: 49px;
+
+/* white */
+
+background: #FFFFFF;
+}
+.sParaDiv{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 16px 14px;
+
+width: 117px;
+height: 47px;
+
+}
+.sPara{
+    width: 85px;
+height: 17px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* blueGray/500 */
+
+color: #64748B;
+}
+.salesDiv{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+border-right: 1px solid #E5E7EB;
+width: 139px;
+height: 49px;
+
+/* white */
+
+background: #FFFFFF;
+}
+.salesParaDiv{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 16px 14px;
+
+width: 66px;
+height: 47px;
+}
+.salesPara{
+    width: 34px;
+height: 17px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* blueGray/500 */
+
+color: #64748B;
+
+}
+.MarketingDiv{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+border-right: 1px solid #E5E7EB;
+width: 160px;
+height: 49px;
+
+/* white */
+
+background: #FFFFFF;
+}
+.MarketingParaDiv{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 16px 14px;
+
+width: 96px;
+height: 47px;
+}
+.marketingPara{
+    width: 64px;
+height: 17px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* blueGray/500 */
+
+color: #64748B;
+}
+.customerDiv{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+border-right: 1px solid #E5E7EB;
+width: 162px;
+height: 49px;
+
+/* white */
+
+background: #FFFFFF;
+}
+.customerParaDiv{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 16px 14px;
+
+width: 100px;
+height: 47px;
+
+}
+.customerPara{
+    width: 68px;
+height: 17px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* blueGray/500 */
+
+color: #64748B;
+}
+.rdDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-right: 1px solid #E5E7EB;
+    width: 167px;
+    height: 49px;
+    
+    /* white */
+    
+    background: #FFFFFF;
+}
+.rdParaDiv{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 16px 14px;
+
+width: 148px;
+height: 47px;
+}
+.rdPara{
+    width: 106px;
+height: 17px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* blueGray/500 */
+
+color: #64748B;
+}
+.serviceDiv{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+border-right: 1px solid #E5E7EB;
+width: 140px;
+height: 49px;
+
+/* white */
+
+background: #FFFFFF;
+
+}
+.serviceParaDiv{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 16px 14px;
+
+width: 85px;
+height: 47px;
+}
+.servicePara{
+    width: 53px;
+height: 17px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* blueGray/500 */
+
+color: #64748B;
+}
+.gaDiv{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+border-right: 1px solid #E5E7EB;
+width: 143px;
+height: 49px;
+
+/* white */
+
+background: #FFFFFF;
+}
+.gaParaDiv{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 16px 14px;
+
+width: 60px;
+height: 47px;
+}
+.gaPara{
+    width: 28px;
+height: 17px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* blueGray/500 */
+
+color: #64748B;
+}
+.hrDiv{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+border-right: 1px solid #E5E7EB;
+width: 142px;
+height: 49px;
+
+/* white */
+
+background: #FFFFFF;
+}
+.hrParaDiv{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 16px 14px;
+
+width: 50px;
+height: 47px;
+
+
+}
+.hrPara{
+    width: 18px;
+height: 17px;
+
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* blueGray/500 */
+
+color: #64748B;
+
+}
+hr{
+    width: 161px;
+height: 44px;
+position: relative;
+top: 240px;
+left: 40px;
+background: #EF8903;
 
 }

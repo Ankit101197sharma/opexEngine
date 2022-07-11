@@ -12,7 +12,7 @@
     justify-content: center;
     margin: auto;
     position: relative;
-    right: -30px;
+    left: 30px;
 }
 .heading1{
     /* position: absolute; */

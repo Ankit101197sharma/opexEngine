@@ -20,8 +20,11 @@ const LandingPage = () => {
           <div className={classes.textDIv}>
             <img src={icon1} alt="" />
             <div className={classes.matricsText}>
+              <div className={classes.hrLine}>
               <p className={classes.myMatrics}>MY Metrics</p>
-              <hr className={classes.orangeLine} />
+              </div>
+             
+              
               <p className={classes.matricsPara}>
                 Metrics are calculated from the data entered in My Data
               </p>
@@ -48,52 +51,64 @@ const LandingPage = () => {
 Search Metrics
 </div>
         </div>
-        <div className={classes.barDesktop}>
-            <div className={classes.tab1}>
-              <p>Financial</p>
-              <hr className={classes.hrOrange} />
-              <hr className={classes.hrDivider} />
+        
+        <div className={classes.deskBar}>
+          <div className={classes.financialDiv}>
+            <div className={classes.fParaDiv}>
+            <p className={classes.fPara}>Financial</p>
+            <hr />
             </div>
-            <div className={classes.tab1}>
-              <p>Saas Metrics</p>
-              
-              <hr className={classes.hrDivider1} />
+
+          </div>
+          <div className={classes.saasDiv}>
+            <div className={classes.sParaDiv}>
+            <p className={classes.sPara}>Saas Metrics</p>
             </div>
-            <div className={classes.tab1}>
-              <p>Sales</p>
-              
-              <hr className={classes.hrDivider3} />
+
+          </div>
+          <div className={classes.salesDiv}>
+            <div className={classes.salesParaDiv}>
+            <p className={classes.salesPara}>Sales</p>
             </div>
-            <div className={classes.tab1}>
-              <p>Marketing</p>
-              
-              <hr className={classes.hrDivider4} />
+
+          </div>
+          <div className={classes.MarketingDiv}>
+            <div className={classes.MarketingParaDiv}>
+            <p className={classes.marketingPara}>Marketing</p>
             </div>
-            <div className={classes.tab1}>
-              <p>Customers</p>
-             
-              <hr className={classes.hrDivider5} />
+
+          </div>
+          <div className={classes.customerDiv}>
+            <div className={classes.customerParaDiv}>
+            <p className={classes.customerPara}>Customer</p>
             </div>
-            <div className={classes.tab1}>
-              <p>R&D and Hosting</p>
-            
-              <hr className={classes.hrDivider6} />
+
+          </div>
+          <div className={classes.rdDiv}>
+            <div className={classes.rdParaDiv}>
+            <p className={classes.rdPara}>R&D and Hosting</p>
             </div>
-            <div className={classes.tab1}>
-              <p>Services</p>
-            
-              <hr className={classes.hrDivider7} />
+
+          </div>
+          <div className={classes.serviceDiv}>
+            <div className={classes.serviceParaDiv}>
+            <p className={classes.servicePara}>Services</p>
             </div>
-            <div className={classes.tab1}>
-              <p>G&A</p>
-              
-              <hr className={classes.hrDivider8} />
+
+          </div>
+          <div className={classes.gaDiv}>
+            <div className={classes.gaParaDiv}>
+            <p className={classes.gaPara}>G&A</p>
             </div>
-            <div className={classes.tab1}>
-              <p>HR</p>
-             
-              <hr className={classes.hrDivider} />
+
+          </div>
+          <div className={classes.hrDiv}>
+            <div className={classes.hrParaDiv}>
+            <p className={classes.hrPara}>HR</p>
             </div>
+
+          </div>
+
         </div>
       </div>
      
